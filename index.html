@@ -1,0 +1,48 @@
+<!-- HTML template for the frontend react app: https://developer.mozilla.org/en-US/docs/Web/HTML -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover"
+    />
+    <title>Xadrez Ativamente • Estímulo Neurocognitivo</title>
+    <meta
+      name="description"
+      content="Plataforma acolhedora de jogos terapêuticos e estímulo psicomotor para crianças neurodivergentes."
+    />
+    <meta name="author" content="Xadrez Ativamente" />
+    <meta name="theme-color" content="#7C6FE0" />
+    <meta name="color-scheme" content="light" />
+
+    <!-- PWA & Mobile Web Capabilities -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.svg" />
+
+    <!-- Apple iOS Meta Tags -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Ativamente" />
+
+    <!-- Social / OpenGraph -->
+    <meta property="og:title" content="Xadrez Ativamente • Estímulo Neurocognitivo" />
+    <meta
+      property="og:description"
+      content="Plataforma de jogos educativos para estimular áreas psicomotoras e cognitivas de mentes brilhantes."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <!-- @skip-protected: Do not remove. Required for app features. -->
+    <script src="https://goskip.dev/skip.js"></script>
+    <!-- @skip-protected: Do not remove. App entrypoint. -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
